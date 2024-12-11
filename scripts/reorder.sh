@@ -1,7 +1,7 @@
-ROOT=~/yby/HVI
+ROOT="$REPO_ROOT"
+DATAROOT="$DATA_ROOT"
+ORDERING=$1
 EXE=${ROOT}/bin/reorder
-DATAROOT=/data/disk1/yangboyu/HVI/data
-ORDERINGMETHOD=Greedy
 GRAPHDIRS=(
     # bn-bnu \
     # bn-jung \
