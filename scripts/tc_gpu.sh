@@ -1,17 +1,17 @@
-ROOT=~/yby/HVI
+ROOT="$REPO_ROOT"
+DATAROOT="$DATA_ROOT"
+ORDERING=$1
+DEVICEID=$2
 TASK=tc
 EXE=${ROOT}/bin/${TASK}_gpu
-DATAROOT=/data/disk1/yangboyu/HVI/data
-ORDERING=Greedy
-DEVICEID=7
 GRAPHDIRS=(
     # bn-bnu \
     # bn-jung \
     # sc-ldoor \
     # sc-msdoor \
-    sc-TSOPF \
+    # sc-nasasrb \
     # tech-ip \
-    # web-arabic-2005 \
+    web-arabic-2005 \
     # web-BerkStan-dir \
     # web-google-dir \
     # web-indochina-2004-all \
