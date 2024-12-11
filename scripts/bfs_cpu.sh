@@ -1,8 +1,8 @@
 ROOT="$REPO_ROOT"
 DATAROOT="$DATA_ROOT"
+ORDERING=$1
 EXE=${ROOT}/bin/test
 TASK=bfs
-ORDERING=$1
 GRAPHDIRS=(
     # bn-bnu \
     # bn-jung \
