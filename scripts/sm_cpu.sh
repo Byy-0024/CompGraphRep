@@ -1,9 +1,9 @@
-ROOT=~/yby/HVI
+ROOT="$REPO_ROOT"
+DATAROOT="$DATA_ROOT"
+ORDERING=$1
+QUERYID=$2
 EXE=${ROOT}/bin/test
-DATAROOT=/data/disk1/yangboyu/HVI/data
 TASK=sm
-ORDERING=Greedy
-QUERYID=q0_
 GRAPHDIRS=(
     bn-bnu \
     # bn-jung \
