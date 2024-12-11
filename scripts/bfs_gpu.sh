@@ -1,9 +1,9 @@
-ROOT=~/yby/HVI
+ROOT="$REPO_ROOT"
+DATAROOT="$DATA_ROOT"
 TASK=bfs
 EXE=${ROOT}/bin/${TASK}_gpu
-DATAROOT=$1
-ORDERING=$2
-DEVICEID=$3
+ORDERING=$1
+DEVICEID=$2
 GRAPHDIRS=(
     # bn-bnu \
     # bn-jung \
