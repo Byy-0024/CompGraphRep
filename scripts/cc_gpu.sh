@@ -1,8 +1,8 @@
-ROOT=~/yby/HVI
+ROOT="$REPO_ROOT"
+DATAROOT="$DATA_ROOT"
+ORDERING=$1
+DEVICEID=$2
 EXE=${ROOT}/bin/cc_gpu
-DATAROOT=/data/disk1/yangboyu/HVI/data
-ORDERING=origin
-DEVICEID=1
 GRAPHDIRS=(
     # bn-bnu \
     # bn-jung \
