@@ -9,9 +9,8 @@ GRAPHDIRS=(
     # sc-ldoor \
     # sc-msdoor \
     # sc-nasasrb \
-    sc-TSOPF \
     # tech-ip \
-    # web-arabic-2005 \
+    web-arabic-2005 \
     # web-BerkStan-dir \
     # web-google-dir \
     # web-indochina-2004-all \
