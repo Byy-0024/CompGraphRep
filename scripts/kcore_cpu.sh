@@ -8,10 +8,9 @@ GRAPHDIRS=(
     # bn-jung \
     # sc-ldoor \
     # sc-msdoor \
-    sc-nasasrb \
-    # sc-TSOPF \
+    # sc-nasasrb \
     # tech-ip \
-    # web-arabic-2005 \
+    web-arabic-2005 \
     # web-BerkStan-dir \
     # web-google-dir \
     # web-indochina-2004-all \
@@ -23,7 +22,7 @@ GRAPHDIRS=(
 )
 
 cd ${ROOT}
-# mkdir exp/${TASK}
+mkdir exp/cpu/${TASK}
 for GRAPHDIR in "${GRAPHDIRS[@]}"; do
     echo ${GRAPHDIR}
     ${EXE} ${TASK} ${DATAROOT}/${GRAPHDIR} ${ORDERING} > ${ROOT}/exp/cpu/${TASK}/${GRAPHDIR}_${ORDERING}.log
