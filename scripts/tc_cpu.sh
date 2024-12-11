@@ -1,8 +1,8 @@
-ROOT=~/yby/HVI
+ROOT="$REPO_ROOT"
+DATAROOT="$DATA_ROOT"
+ORDERING=$1
 TASK=tc
 EXE=${ROOT}/bin/test
-DATAROOT=/data/disk1/yangboyu/HVI/data
-ORDERING=origin
 GRAPHDIRS=(
     # bn-bnu \
     # bn-jung \
