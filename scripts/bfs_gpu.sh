@@ -1,18 +1,17 @@
 ROOT=~/yby/HVI
 TASK=bfs
 EXE=${ROOT}/bin/${TASK}_gpu
-DATAROOT=/data/disk1/yangboyu/HVI/data
-ORDERING=origin
-DEVICEID=2
+DATAROOT=$1
+ORDERING=$2
+DEVICEID=$3
 GRAPHDIRS=(
     # bn-bnu \
     # bn-jung \
     # sc-ldoor \
     # sc-msdoor \
-    sc-nasasrb \
-    # # sc-TSOPF \
+    # sc-nasasrb \
     # tech-ip \
-    # web-arabic-2005 \
+    web-arabic-2005 \
     # web-BerkStan-dir \
     # web-google-dir \
     # web-indochina-2004-all \
