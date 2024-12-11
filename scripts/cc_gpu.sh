@@ -9,9 +9,8 @@ GRAPHDIRS=(
     # sc-ldoor \
     # sc-msdoor \
     # sc-nasasrb \
-    # # sc-TSOPF \
-    tech-ip \
-    # web-arabic-2005 \
+    # tech-ip \
+    web-arabic-2005 \
     # web-BerkStan-dir \
     # web-google-dir \
     # web-indochina-2004-all \
@@ -23,7 +22,9 @@ GRAPHDIRS=(
 )
 
 cd ${ROOT}
-# mkdir exp/${TASK}
+mkdir -p exp
+mkdir -p exp/gpu
+mkdir -p exp/gpu/${TASK}
 for GRAPHDIR in "${GRAPHDIRS[@]}"; do
     echo ${GRAPHDIR}
     ${EXE} ${DATAROOT}/${GRAPHDIR} ${ORDERING} ${DEVICEID} > ${ROOT}/exp/gpu/cc/${GRAPHDIR}_${ORDERING}.log
