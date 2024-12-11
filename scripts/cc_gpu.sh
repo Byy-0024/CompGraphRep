@@ -22,8 +22,6 @@ GRAPHDIRS=(
 )
 
 cd ${ROOT}
-mkdir -p exp
-mkdir -p exp/gpu
 mkdir -p exp/gpu/${TASK}
 for GRAPHDIR in "${GRAPHDIRS[@]}"; do
     echo ${GRAPHDIR}
