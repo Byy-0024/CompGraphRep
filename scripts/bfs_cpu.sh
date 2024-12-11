@@ -1,6 +1,6 @@
-ROOT=~/yby/HVI
+ROOT="$REPO_ROOT"
+DATAROOT="$DATA_ROOT"
 EXE=${ROOT}/bin/test
-DATAROOT=/data/disk1/yangboyu/HVI/data
 TASK=bfs
 ORDERING=$1
 GRAPHDIRS=(
