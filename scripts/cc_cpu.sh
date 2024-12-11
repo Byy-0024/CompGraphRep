@@ -22,7 +22,7 @@ GRAPHDIRS=(
 )
 
 cd ${ROOT}
-# mkdir exp/${TASK}
+mkdir -p exp/cpu/${TASK}
 for GRAPHDIR in "${GRAPHDIRS[@]}"; do
     echo ${GRAPHDIR}
     ${EXE} ${TASK} ${DATAROOT}/${GRAPHDIR} ${ORDERING} > ${ROOT}/exp/cpu/cc/${GRAPHDIR}_${ORDERING}.log
