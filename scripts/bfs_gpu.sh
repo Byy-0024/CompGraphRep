@@ -1,9 +1,9 @@
 ROOT="$REPO_ROOT"
 DATAROOT="$DATA_ROOT"
-TASK=bfs
-EXE=${ROOT}/bin/${TASK}_gpu
 ORDERING=$1
 DEVICEID=$2
+TASK=bfs
+EXE=${ROOT}/bin/${TASK}_gpu
 GRAPHDIRS=(
     # bn-bnu \
     # bn-jung \
