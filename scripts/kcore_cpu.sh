@@ -1,8 +1,8 @@
-ROOT=~/yby/HVI
+ROOT="$REPO_ROOT"
+DATAROOT="$DATA_ROOT"
+ORDERING=$1
 EXE=${ROOT}/bin/test
 TASK=kcore
-DATAROOT=/data/disk1/yangboyu/HVI/data
-ORDERING=Greedy
 GRAPHDIRS=(
     # bn-bnu \
     # bn-jung \
