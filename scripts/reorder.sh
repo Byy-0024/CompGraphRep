@@ -7,11 +7,10 @@ GRAPHDIRS=(
     # bn-jung \
     # sc-ldoor \
     # sc-msdoor \
-    sc-nasasrb \
-    # sc-TSOPF \
+    # sc-nasasrb \
     # tech-ip \
     # tech-as-skitter \
-    # web-arabic-2005 \
+    web-arabic-2005 \
     # web-BerkStan-dir \
     # web-google-dir \
     # web-indochina-2004-all \
