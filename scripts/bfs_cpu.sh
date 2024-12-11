@@ -2,7 +2,7 @@ ROOT=~/yby/HVI
 EXE=${ROOT}/bin/test
 DATAROOT=/data/disk1/yangboyu/HVI/data
 TASK=bfs
-ORDERING=origin
+ORDERING=$1
 GRAPHDIRS=(
     # bn-bnu \
     # bn-jung \
